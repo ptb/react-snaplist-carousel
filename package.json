@@ -30,7 +30,6 @@
     "test:watch": "react-scripts-ts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
     "linter": "tsc --project ./tsconfig.json && eslint './src/**/*.{ts,tsx,.js,.jsx}'",
